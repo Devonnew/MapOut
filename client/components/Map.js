@@ -6,8 +6,6 @@ const MapLoad = ReactMapboxGl({
 });
 
 function Map() {
-  let hiya = process.env.REACT_APP_MAPBOX_API_KEY;
-  console.log("key", hiya);
   return (
     <div>
       <MapLoad
